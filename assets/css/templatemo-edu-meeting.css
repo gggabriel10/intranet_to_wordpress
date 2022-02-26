@@ -61,6 +61,10 @@ html[xmlns] .clearfix {
   display: block;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 * html .clearfix {
   height: 1%;
 }
