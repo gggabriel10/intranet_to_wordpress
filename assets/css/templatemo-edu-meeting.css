@@ -178,7 +178,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: #64B32E;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -219,7 +219,7 @@ header
 .sub-header .left-content p {
   color: black;
   padding: 8px 0px;
-  font-size: 18px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 
@@ -235,7 +235,7 @@ header
 
 .sub-header .right-icons ul li a {
   color: #64B32E;
-  font-size: 18px;
+  font-size: 16px;
   transition: all .3s;
 }
 
@@ -639,7 +639,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #f5a425!important;
+    color: #64B32E!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -784,7 +784,7 @@ services
 }
 
 .services .item {
-  background-image: url(../images/verde-bg.jpg);
+  background-image: url(../images/Rect-Light.svg);
   /* background-color: #64B32E; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -894,7 +894,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/otro-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -996,7 +996,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #64B32E;
 }
 
 .meeting-item .down-content .date span {
@@ -1029,7 +1029,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/apply-bg.jpg);
+  background-image: url(../images/agricultura-fondo.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1088,7 +1088,7 @@ section.apply-now .item p {
   transition: transform 200ms ease-in-out;
 }
 .accordion-head.is-open {
-  color: #f5a425;
+  color: #64B32E;
   border-bottom: none;
 }
 .accordion-head.is-open .icon {
@@ -1113,7 +1113,7 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/courses-img.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1261,7 +1261,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(../images/facts.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1293,7 +1293,7 @@ section.our-facts h2 {
 
 .count-digit {
     margin: 5px 0px;
-    color: #f5a425;
+    color: #64B32E;
     font-weight: 700;
     font-size: 36px;
 }
@@ -1331,7 +1331,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/contact-img.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1389,7 +1389,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #64B32E;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1405,7 +1405,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #64B32E;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1426,15 +1426,15 @@ section.contact-us .right-info ul li:last-child {
 section.contact-us .right-info ul li h6 {
   color: #fff;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
 section.contact-us .right-info ul li span {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .footer {
