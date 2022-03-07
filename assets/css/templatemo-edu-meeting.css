@@ -409,7 +409,7 @@ header
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
   opacity: 1;
   display: block;
-  background: #f7f7f7;
+  background: white;
   color: #2a2a2a!important;
   padding-left: 20px;
   height: 40px;
@@ -638,7 +638,7 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: white !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
@@ -990,7 +990,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content .date {
-  float: left;
+  float: none;
   text-align: center;
   display: inline-block;
   margin-right: 20px;
@@ -1016,6 +1016,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .meeting-item .down-content p {
@@ -1316,8 +1317,9 @@ section.our-facts h2 {
 
 section.our-facts .video {
   text-align: center;
-  margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  margin-left: 25px;
+  /* background-image: url(../images/banco.png); */
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1467,7 +1469,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/otro-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1503,12 +1505,12 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../images/contact-img.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
+  padding-top: 40px;
   padding-bottom: 0px;
 }
 
@@ -1605,8 +1607,9 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content {
   background-color: #fff;
   padding: 40px;
-  border-bottom-right-radius: 20px;
+  /* border-radius: 20px; */
   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .meeting-single-item .thumb .date {
@@ -1688,7 +1691,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content .share ul li a:hover {
-  color: #f5a425;
+  color: #64B32E;
 }
 
 /* Meeting item column */
