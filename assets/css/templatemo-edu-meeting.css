@@ -120,6 +120,7 @@ p {
 img {
   width: 100%;
   overflow: hidden;
+  background-color: #fff;
 }
 
 /* 
@@ -197,7 +198,7 @@ body {
   margin-bottom: 50px; 
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(250,250,250,0.15);
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -809,6 +810,7 @@ services
   margin-bottom: 15px;
   font-size: 18px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .services .item p {
@@ -921,7 +923,7 @@ section.upcoming-meetings .categories {
 section.upcoming-meetings .categories h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #1f272b;
+  color: #64B32E;
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -965,6 +967,8 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  width: 100%;
+  height: 225px;
 }
 
 .meeting-item .thumb .price {
@@ -1012,10 +1016,10 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .down-content h4 {
   font-size: 18px;
-  color: #1f272b;
+  color: #64B32E;
   font-weight: 600;
   display: inline-block;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   text-transform: uppercase;
 }
 
@@ -1076,6 +1080,7 @@ section.apply-now .item p {
   border-bottom: none;
 }
 .accordion-head {
+  text-transform: uppercase;
   padding: 20px;  
   font-size: 18px;
   font-weight: 700;
@@ -1315,15 +1320,17 @@ section.our-facts h2 {
   margin-top: 45px;
 }
 
-section.our-facts .video {
+section.our-facts .video .videoFacts{
+  width: 675px; 
+  height: 400px;
   text-align: center;
-  margin-left: 25px;
-  /* background-image: url(../images/banco.png); */
-  background-color: #fff;
+  margin-left: 15px;
+  /* background-color: red; */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 section.our-facts .video img {
@@ -1355,7 +1362,7 @@ section.contact-us #contact {
 
 section.contact-us #contact h2 {
   text-transform: uppercase;
-  color: #1f272b;
+  color: #64B32E;
   border-bottom: 1px solid #eee;
   margin-bottom: 40px;
   padding-bottom: 20px;
@@ -1435,7 +1442,6 @@ section.contact-us .right-info ul li h6 {
   color: #fff;
   font-size: 15px;
   font-weight: 700;
-  margin-bottom: 10px;
 }
 
 section.contact-us .right-info ul li span {
@@ -1455,10 +1461,12 @@ section.contact-us .right-info ul li span {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
+  font-weight: bold;
 }
 
 .footer p a {
-  color: #f5a425;
+  color: #64B32E;
+  font-weight: bold;
 }
 
 
@@ -1583,11 +1591,16 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .thumb {
   position: relative;
+  float: left;
 }
 
 .meeting-single-item .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  padding-left: 48px;
+  padding-top: 43px;
+  padding-right: 38px;
+  padding-bottom: 15px;
 }
 
 .meeting-single-item .thumb .price {
@@ -1608,7 +1621,7 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content {
   background-color: #fff;
   padding: 40px;
-  /* border-radius: 20px; */
+  border-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
