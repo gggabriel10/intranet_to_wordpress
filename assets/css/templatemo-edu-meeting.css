@@ -971,6 +971,47 @@ section.upcoming-meetings .categories .main-button-red a {
   height: 225px;
 }
 
+
+/*  COPIAS DE CODIGO PARA LAS APLICACIONES   */
+
+.meeting-item-apps {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.meeting-item-apps .thumb {
+  position: relative;
+}
+
+.meeting-item-apps .thumb img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 60%;
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meeting-item-apps .down-content {
+  background-color: #fff;
+  padding: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.meeting-item-apps .down-content h4 {
+  font-size: 16px;
+  color: #64B32E;
+  font-weight: 600;
+  display: inline-block;
+  /* margin-bottom: 15px; */
+  text-transform: uppercase;
+}
+
+/*  COPIAS DE CODIGO PARA LAS APLICACIONES  */
+
 .meeting-item .thumb .price {
   position: absolute;
   left: 20px;
@@ -1710,7 +1751,7 @@ section.meetings-page .pagination ul li a:hover {
 
 /* Meeting item column */
 .templatemo-item-col {
-	width: 31%;
+	width: 25%;
 }
 
 @media (max-width: 992px) {
