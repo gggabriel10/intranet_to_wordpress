@@ -972,8 +972,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 
-/*  COPIAS DE CODIGO PARA LAS APLICACIONES   */
-
+/*  COPIED CODE FOR SECTIONS OUR-APPS START  */
 .meeting-item-apps {
   margin-bottom: 30px;
   background-color: #fff;
@@ -987,7 +986,7 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item-apps .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 60%;
+  width: 50%;
   height: 125px;
   display: block;
   margin-left: auto;
@@ -1009,8 +1008,83 @@ section.upcoming-meetings .categories .main-button-red a {
   /* margin-bottom: 15px; */
   text-transform: uppercase;
 }
+/*  COPIED CODE FOR SECTIONS OUR-APPS END */
 
-/*  COPIAS DE CODIGO PARA LAS APLICACIONES  */
+/* STYLES FOR APLICATION BAGRIFLOTA SECTION OUR-APPS START*/
+.meeting-item-bag {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.meeting-item-bag .thumb {
+  position: relative;
+}
+
+.meeting-item-bag .thumb img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meeting-item-bag .down-content {
+  background-color: #fff;
+  padding: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.meeting-item-bag .down-content h4 {
+  font-size: 16px;
+  color: #64B32E;
+  font-weight: 600;
+  display: inline-block;
+  /* margin-bottom: 15px; */
+  text-transform: uppercase;
+}
+/* STYLES FOR APLICATION BAGRIFLOTA SECTION OUR-APPS END*/
+
+/* STYLES FOR BAGRICOLA WEB APLICATION SECTION OUR-APPS START*/
+.meeting-item-web {
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.meeting-item-web  .thumb {
+  position: relative;
+}
+
+.meeting-item-web .thumb img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 85%;
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meeting-item-web .down-content {
+  background-color: #fff;
+  padding: 30px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.meeting-item-web .down-content h4 {
+  font-size: 16px;
+  color: #64B32E;
+  font-weight: 600;
+  display: inline-block;
+  /* margin-bottom: 15px; */
+  text-transform: uppercase;
+}
+/* STYLES FOR BAGRICOLA WEB APLICATION SECTION OUR-APPS END*/
 
 .meeting-item .thumb .price {
   position: absolute;
