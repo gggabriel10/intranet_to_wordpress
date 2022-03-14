@@ -911,6 +911,7 @@ section.upcoming-meetings {
 
 section.upcoming-meetings .section-heading {
   text-align: center;
+  margin-top: 75px;
 }
 
 section.upcoming-meetings .categories {
@@ -1420,7 +1421,7 @@ section.our-facts h2 {
 
 .count-digit {
     margin: 5px 0px;
-    color: #64B32E;
+    color: #fff;
     font-weight: 700;
     font-size: 36px;
 }
