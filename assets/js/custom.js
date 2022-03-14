@@ -38,7 +38,7 @@
 	    // Expand the first item by default
 	    first_expanded: false,
 	    // Allow items to be toggled independently
-	    toggle: false
+	    toggle: true
 	  },
 
 	  openAccordion: function(toggle, content) {
