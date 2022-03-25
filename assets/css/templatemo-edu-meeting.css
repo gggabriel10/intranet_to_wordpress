@@ -165,7 +165,7 @@ body {
 }
 
 .main-button-red a {
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
   background-color: #64B32E;
   padding: 12px 30px;
@@ -734,7 +734,7 @@ banner
 
 .main-banner .caption h6 {
   margin-top: 0px;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
@@ -744,7 +744,7 @@ banner
 .main-banner .caption h2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 45px;
   text-transform: uppercase;
   font-weight: 800;
   color: #64B32E;
@@ -904,7 +904,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/otro-bg.jpg);
+  background-image: url(../images/ultimas-noticias-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -915,7 +915,7 @@ section.upcoming-meetings {
 
 section.upcoming-meetings .section-heading {
   text-align: center;
-  margin-top: 75px;
+  /* margin-top: 75px; Espacio entre servicios y noticias */
 }
 
 section.upcoming-meetings .categories {
@@ -990,8 +990,8 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item-apps .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 50%;
-  height: 150px;
+  width: 40%;
+  height: 115px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1028,8 +1028,8 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item-bag .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 100%;
-  height: 150px;
+  width: 72%;
+  height: 115px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1066,8 +1066,8 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item-web .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  width: 85%;
-  height: 150px;
+  width: 70%;
+  height: 115px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1159,7 +1159,7 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/agricultura-fondo.jpg);
+  background-image: url(../images/sobre-nosotros-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1168,8 +1168,8 @@ section.apply-now {
 }
 
 section.apply-now .item {
-  /* background-color: rgba(250,250,250,0.15); */
-  background-color: #fff;
+  background-color: rgba(250,250,250,0.90);
+  /* background-color: #fff; */
   padding: 40px;
   margin-bottom: 30px;
   border-radius: 20px;
@@ -1185,13 +1185,12 @@ section.apply-now .item h3 {
 
 section.apply-now .item p {
   color: black;
-  margin-bottom: 20px;
 }
 
 .accordions {
   border-radius: 20px;
   padding: 28px;
-  background-color: #fff;
+  background-color: rgba(250,250,250,0.90);
   margin-left: 45px;
 }
 .accordions .accordion {
@@ -1246,7 +1245,7 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/courses-img.jpg);
+  background-image: url(../images/capacitaciones-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1394,7 +1393,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts.jpg);
+  background-image: url(../images/logros-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1413,7 +1412,7 @@ section.our-facts h2 {
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(250,250,250,0.15);
+  background-color: rgba(250,250,250,0.50);
   border-radius: 20px;
   padding: 25px 30px 35px 30px;
   margin: 15px 0px;
@@ -1431,10 +1430,11 @@ section.our-facts h2 {
     font-size: 36px;
 }
 .count-title {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     color: #fff;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .new-students {
@@ -1442,10 +1442,10 @@ section.our-facts h2 {
 }
 
 section.our-facts .video .videoFacts{
-  width: 675px; 
-  height: 400px;
+  width: 80%; 
+  height: 300px;
   text-align: center;
-  margin-left: 15px;
+  margin-left: 50px;
   /* background-color: red; */
   background-repeat: no-repeat;
   background-position: center center;
@@ -1467,7 +1467,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/contact-img.jpg);
+  background-image: url(../images/sugerencias-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1575,14 +1575,14 @@ section.contact-us .right-info ul li span {
 .footer {
   text-align: center;
   margin-top: 140px;
-  border-top: 1px solid rgba(250,250,250,0.15);
+  border-top: 1px solid #fff;
   padding: 50px 0px;
-  background-color: #fff;
+  background-color: rgba(250,250,250,0.30);
 }
 .footer p {
   text-transform: uppercase;
   font-size: 14px;
-  /* color: #fff; */
+  color: #fff;
   font-weight: bold;
 }
 
@@ -1604,8 +1604,8 @@ section.heading-page {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
+  padding-top: 180px;
+  /* padding-bottom: 110px; */
   text-align: center;
 }
 
