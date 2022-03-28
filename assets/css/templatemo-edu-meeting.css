@@ -48,6 +48,13 @@ body{
   zoom: 110%;
 }
 
+.logointranet{
+  background: transparent;
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -742,13 +749,16 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 800;
   color: #64B32E;
   letter-spacing: 1px;
+  /* display: block; */
+  float: right;
+
 }
 
 .main-banner .caption h2 em {
@@ -774,7 +784,8 @@ banner
   }
 
   .main-banner .caption h2 {
-    font-size: 36px;
+    font-size: 40px;
+    margin-top: 50px;
   }
 
 }
@@ -1920,9 +1931,9 @@ responsive
   }
 
   .main-banner .caption h2 {
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .main-banner .caption .main-button-red {
