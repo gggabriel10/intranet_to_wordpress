@@ -191,13 +191,13 @@
 	        })
 	        $(this).addClass('active');
 	      
-	        var target = this.hash,
+	        var target = this.href,
 	        menu = target;
-	       	var target = $(this.hash);
+	       	var target = $(this.href);
 	        $('html, body').stop().animate({
 	            scrollTop: (target.offset().top) - 100
 	        }, 500, 'swing', function () {
-	            window.location.hash = target;
+	            window.location.href = target;
 	            $(document).on("scroll", onScroll);
 	        });
 	    });
