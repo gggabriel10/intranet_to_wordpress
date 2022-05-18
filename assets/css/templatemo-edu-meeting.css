@@ -320,6 +320,7 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: #fff;
+  margin-top: 22px;
 }
 
 .header-area .main-nav .logo {
@@ -817,8 +818,8 @@ services
 }
 
 .services .item {
-  background-image: url(../images/Rect-Light.svg);
-  /* background-color: #64B32E; */
+  /* background-image: url(../images/Rect-Light.svg); */
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -839,6 +840,7 @@ services
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #81c057;
 }
 
 .services .item p {
@@ -947,6 +949,7 @@ section.upcoming-meetings .categories {
   border-radius: 20px;
   padding: 40px;
   margin-right: 45px;
+  text-transform: uppercase;
 }
 
 section.upcoming-meetings .categories h4 {
@@ -956,6 +959,14 @@ section.upcoming-meetings .categories h4 {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+}
+
+section.upcoming-meetings .categories p {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 section.upcoming-meetings .categories ul li {
@@ -1676,7 +1687,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #81c057;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1690,7 +1701,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #64B32E;
   color: #fff;
 }
 
@@ -1731,7 +1742,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #64B32E;
   color: #fff;
 }
 
@@ -2001,6 +2012,17 @@ responsive
 
   .header-area .main-nav .nav li ul.sub-menu li a {
     color: #1f272b;
+  }
+
+  .meeting-single-item .thumb img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 48px;
+    padding-top: 43px;
+    padding-right: 38px;
+    padding-bottom: 15px;
+    /* width: 100%; */
+    height: 390px;
   }
 
 }
