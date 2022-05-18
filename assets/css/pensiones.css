@@ -838,6 +838,7 @@ services
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #81c057;
 }
 
 .services .item p {
