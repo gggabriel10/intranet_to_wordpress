@@ -228,12 +228,37 @@ body {
   color: #fff;
 }
 
+.section-heading2 h2 {
+  line-height: 50px;
+  border-bottom: 1px solid rgba(250,250,250,0.15);
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 20px;
+}
+
 
 /* 
 ---------------------------------------------
 header
 --------------------------------------------- 
 */
+
+
+.cont{
+  text-align: center;
+  border: 1px solid white;
+}
+
+.fake{
+  max-width: 110px;
+  max-height: 110px;
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 5px;
+  /* border: 1px solid red; */
+}
 
 .sub-header {
   background-color: #fff;
@@ -253,9 +278,14 @@ header
   padding: 8px 0px;
 }
 
-.sub-header .right-icons ul li {
+.sub-header .right-icons ul li{
   display: inline-block;
   margin-left: 15px;
+}
+
+.sub-header .right-icons ul p{
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .sub-header .right-icons ul li a {
