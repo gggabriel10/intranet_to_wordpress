@@ -119,11 +119,11 @@ html, body {
 
 a {
   text-decoration: none !important;
-  color: #81c057;
+  color: #3CF;
 }
 
 a:hover {
-	color: #64B32E;
+	color: #FC3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -144,6 +144,7 @@ p {
 img {
   width: 100%;
   overflow: hidden;
+  background-color: #fff;
 }
 
 /* 
@@ -227,12 +228,37 @@ body {
   color: #fff;
 }
 
+.section-heading2 h2 {
+  line-height: 50px;
+  border-bottom: 1px solid rgba(250,250,250,0.15);
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 15px;
+}
+
 
 /* 
 ---------------------------------------------
 header
 --------------------------------------------- 
 */
+
+
+.cont{
+  text-align: center;
+  border: 1px solid white;
+}
+
+.fake{
+  max-width: 110px;
+  max-height: 110px;
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 5px;
+  /* border: 1px solid red; */
+}
 
 .sub-header {
   background-color: #fff;
@@ -252,9 +278,14 @@ header
   padding: 8px 0px;
 }
 
-.sub-header .right-icons ul li {
+.sub-header .right-icons ul li{
   display: inline-block;
   margin-left: 15px;
+}
+
+.sub-header .right-icons ul p{
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .sub-header .right-icons ul li a {
@@ -724,32 +755,26 @@ banner
 }
 
 #bg-video {
-  min-width: 100%;
-  min-height: 100vh;
-  max-width: 100%;
-  max-height: 100vh;
-  object-fit: cover;
-  z-index: -1;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 }
 
 #bg-video::-webkit-media-controls {
     display: none !important;
 }
 
-
-.miembros-cep{
-  width: 100%;
-  height: 250px;
-}
-
 .video-overlay {
-  position: absolute;
-  background-color: rgba(31,39,43,0.75);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
+    position: absolute;
+    background-color: rgba(31,39,43,0.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .main-banner .caption {
@@ -760,7 +785,7 @@ banner
 
 .main-banner .caption h6 {
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
@@ -777,6 +802,7 @@ banner
   letter-spacing: 1px;
   /* display: block; */
   float: right;
+
 }
 
 .main-banner .caption h2 em {
@@ -816,19 +842,21 @@ services
 */
 
 .services {
-  margin-top: -100px;
+  margin-top: -135px;
   position: absolute;
   width: 100%;
 }
 
 .services .item {
+  /* background-image: url(../images/Rect-Light.svg); */
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 20px;
   text-align: center;
   color: #fff;
-  padding: 100px;
+  padding: 40px;
 }
 
 .services .item .icon {
@@ -842,6 +870,7 @@ services
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #81c057;
 }
 
 .services .item p {
@@ -950,6 +979,7 @@ section.upcoming-meetings .categories {
   border-radius: 20px;
   padding: 40px;
   margin-right: 45px;
+  text-transform: uppercase;
 }
 
 section.upcoming-meetings .categories h4 {
@@ -959,6 +989,14 @@ section.upcoming-meetings .categories h4 {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+}
+
+section.upcoming-meetings .categories p {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 section.upcoming-meetings .categories ul li {
@@ -1186,12 +1224,12 @@ apply now
 */
 
 section.apply-now {
-  background-image: url(../images/logros-background.jpg);
+  background-image: url(../images/sobre-nosotros-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0px;
+  padding: 140px 0px;
 }
 
 section.apply-now .item {
@@ -1272,13 +1310,13 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/logros-background.jpg);
+  background-image: url(../images/capacitaciones-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding-top: 140px;
+  padding-bottom: 130px;
 }
 
 .our-courses .item .down-content {
@@ -1286,7 +1324,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content h4 {
-  padding: 15px;
+  padding: 25px;
   font-size: 18px;
   color: #1f272b;
   text-align: center; 
@@ -1295,7 +1333,6 @@ section.our-courses {
 
 .our-courses .item .down-content .info {
   padding: 25px;
-  padding-top: 20px;
 }
 
 .our-courses .item .down-content .info ul li {
@@ -1422,12 +1459,11 @@ our facts
 
 section.our-facts {
   background-image: url(../images/logros-background.jpg);
-  background-color: black;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px 0px 60px 0px;
+  padding: 140px 0px 125px 0px;
 }
 
 section.our-facts h2 {
@@ -1437,15 +1473,14 @@ section.our-facts h2 {
   font-weight: 700;
   letter-spacing: 0.5px;
   margin-bottom: 50px;
-  text-transform: uppercase;
 }
 
 .count-area-content {
   text-align: center;
-  background-color: rgba(250,250,250,0.90);
+  background-color: rgba(250,250,250,0.50);
   border-radius: 20px;
   padding: 25px 30px 35px 30px;
-  margin: 15px;
+  margin: 15px 0px;
 }
 
 .percentage .count-digit:after {
@@ -1455,15 +1490,16 @@ section.our-facts h2 {
 
 .count-digit {
     margin: 5px 0px;
-    color: black;
+    color: #fff;
     font-weight: 700;
     font-size: 36px;
 }
 .count-title {
-    font-size: 14px;
-    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
     letter-spacing: 0.5px;
-    line-height: 25px;
+    text-transform: uppercase;
 }
 
 .new-students {
@@ -1496,14 +1532,12 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/logros-background.jpg);
+  background-image: url(../images/sugerencias-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 240px;
-  padding: 50px 0px 0px 0px;
-  border-top: 1px solid white;
+  padding: 140px 0px 0px 0px;
 }
 
 section.contact-us #contact {
@@ -1567,19 +1601,6 @@ section.contact-us #contact button {
   outline: none;
 }
 
-section.contact-us #contact a {
-  font-size: 13px;
-  color: #fff;
-  background-color: #64B32E;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 500;
-  transition: all .3s;
-  border: none;
-  outline: none;
-}
-
 section.contact-us #contact button:hover {
   opacity: 0.9;
 }
@@ -1588,11 +1609,6 @@ section.contact-us .right-info {
   background-color: #64B32E;
   border-radius: 20px;
   padding: 40px;
-}
-
-section.contact-us .right-info img {
-  background-color: rgba(250,250,250,0.90);
-  border-radius: 20px;
 }
 
 section.contact-us .right-info ul li {
@@ -1628,11 +1644,6 @@ section.contact-us .right-info ul li span {
   padding: 50px 0px;
   background-color: rgba(250,250,250,0.30);
 }
-
-.footer2 {
-  border-top: 1px solid #fff;
-}
-
 .footer p {
   text-transform: uppercase;
   font-size: 14px;
@@ -1653,12 +1664,12 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/paginas-adicionales-background.jpg);
+  background-image: url(../images/logros-background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 180px;
+  padding-top: 50px;
   /* padding-bottom: 110px; */
   text-align: center;
 }
@@ -1696,7 +1707,7 @@ section.meetings-page {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 section.meetings-page .filters {
@@ -1706,7 +1717,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #81c057;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1720,7 +1731,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #64B32E;
   color: #fff;
 }
 
@@ -1761,13 +1772,13 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #64B32E;
   color: #fff;
 }
 
 .meeting-single-item .thumb {
   position: relative;
-  float: right;
+  float: left;
 }
 
 .meeting-single-item .thumb img {
@@ -1795,12 +1806,11 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content {
-  background-color: whitesmoke;
+  background-color: #fff;
   padding: 40px;
   border-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  /* margin-bottom: 25px; */
 }
 
 .meeting-single-item .thumb .date {
@@ -1835,7 +1845,6 @@ section.meetings-page .pagination ul li a:hover {
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
 .meeting-single-item .down-content h5 {
@@ -1852,10 +1861,11 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content p.description {
-  /* margin-top: 40px; */
+  margin-top: 40px;
+  padding-top: 40px;
   border-top: 1px solid #eee;
-  /* margin-bottom: 40px;
-  padding-bottom: 40px; */
+  margin-bottom: 40px;
+  padding-bottom: 40px;
   border-bottom: 1px solid #eee;
 }
 
@@ -2032,6 +2042,17 @@ responsive
 
   .header-area .main-nav .nav li ul.sub-menu li a {
     color: #1f272b;
+  }
+
+  .meeting-single-item .thumb img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 48px;
+    padding-top: 43px;
+    padding-right: 38px;
+    padding-bottom: 15px;
+    /* width: 100%; */
+    height: 390px;
   }
 
 }
