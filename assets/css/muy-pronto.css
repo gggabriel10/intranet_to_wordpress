@@ -87,6 +87,7 @@ html[xmlns] .clearfix {
 
 html{
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 * html .clearfix {
@@ -220,6 +221,7 @@ body {
   margin-top: 0px;
   margin-bottom: 50px; 
   padding-bottom: 20px;
+  border-bottom: 1px solid rgba(250,250,250,0.15);
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
@@ -722,37 +724,27 @@ banner
   margin-bottom: -7px;
 }
 
-.main-banner img{
-  
-}
-
 #bg-video {
-  min-width: 100%;
-  min-height: 100vh;
-  max-width: 100%;
-  max-height: 100vh;
-  object-fit: contain;
-  z-index: -1;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    z-index: -1;
 }
 
 #bg-video::-webkit-media-controls {
     display: none !important;
 }
 
-
-.miembros-cep{
-  width: 100%;
-  height: 250px;
-}
-
 .video-overlay {
-  position: absolute;
-  background-color: rgba(31,39,43,0.75);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
+    position: absolute;
+    background-color: rgba(31,39,43,0.75);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .main-banner .caption {
@@ -779,7 +771,8 @@ banner
   color: #64B32E;
   letter-spacing: 1px;
   /* display: block; */
-  /* float: right; */
+  float: right;
+
 }
 
 .main-banner .caption h2 em {
@@ -1289,7 +1282,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content h4 {
-  padding: 15px;
+  padding: 25px;
   font-size: 18px;
   color: #1f272b;
   text-align: center; 
@@ -1298,7 +1291,6 @@ section.our-courses {
 
 .our-courses .item .down-content .info {
   padding: 25px;
-  padding-top: 20px;
 }
 
 .our-courses .item .down-content .info ul li {
@@ -1440,7 +1432,6 @@ section.our-facts h2 {
   font-weight: 700;
   letter-spacing: 0.5px;
   margin-bottom: 50px;
-  text-transform: uppercase;
 }
 
 .count-area-content {
@@ -1506,11 +1497,10 @@ section.contact-us {
   background-size: cover;
   padding-top: 240px;
   padding: 50px 0px 0px 0px;
-  border-top: 1px solid white;
 }
 
 section.contact-us #contact {
-  background-color: #fff;
+  background-color: rgba(250,250,250,0.90);
   border-radius: 20px;
   padding: 40px;
 }
@@ -1556,20 +1546,6 @@ section.contact-us #contact textarea {
   margin-bottom: 30px;
 }
 
-section.contact-us #contact button {
-  font-size: 13px;
-  color: #fff;
-  background-color: #64B32E;
-  padding: 12px 30px;
-  display: inline-block;
-  border-radius: 22px;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all .3s;
-  border: none;
-  outline: none;
-}
-
 section.contact-us #contact a {
   font-size: 13px;
   color: #fff;
@@ -1585,12 +1561,6 @@ section.contact-us #contact a {
 
 section.contact-us #contact button:hover {
   opacity: 0.9;
-}
-
-section.contact-us .right-info {
-  background-color: #64B32E;
-  border-radius: 20px;
-  padding: 40px;
 }
 
 section.contact-us .right-info img {
