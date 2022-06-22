@@ -1215,6 +1215,7 @@ section.apply-now .item h3 {
 
 section.apply-now .item p {
   color: black;
+  text-align: justify;
 }
 
 .accordions {
@@ -1457,16 +1458,16 @@ section.our-facts h2 {
 }
 
 .count-digit {
-    margin: 5px 0px;
-    color: black;
-    font-weight: 700;
-    font-size: 36px;
+  margin: 5px 0px;
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
 }
 .count-title {
-    font-size: 14px;
-    color: black;
-    letter-spacing: 0.5px;
-    line-height: 25px;
+  font-size: 14px;
+  color: black;
+  line-height: 25px;
+  text-align: justify;
 }
 
 .new-students {
@@ -1860,6 +1861,7 @@ section.meetings-page .pagination ul li a:hover {
   /* margin-bottom: 40px;
   padding-bottom: 40px; */
   border-bottom: 1px solid #eee;
+  text-align: justify;
 }
 
 .meeting-single-item .down-content .share {

@@ -1169,6 +1169,7 @@ section.upcoming-meetings .categories .main-button-red a {
   /* margin-left: 50px; */
   color: #1f272b;
   font-size: 14px;
+  text-align: justify;
 }
 
 
@@ -1805,8 +1806,8 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content h4 {
   font-size: 22px;
-  color: #1f272b;
-  font-weight: 600;
+  color: #81c057;
+  font-weight: 700;
   display: inline-block;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1823,6 +1824,7 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content p {
   color: #1f272b;
   font-size: 14px;
+  text-align: justify;
 }
 
 .meeting-single-item .down-content p.description {

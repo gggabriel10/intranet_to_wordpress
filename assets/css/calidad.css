@@ -1457,6 +1457,7 @@ section.our-facts h2 {
     color: black;
     letter-spacing: 0.5px;
     line-height: 25px;
+    text-align: justify;
 }
 
 .new-students {
@@ -1803,8 +1804,8 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content h4 {
   font-size: 22px;
-  color: #1f272b;
-  font-weight: 600;
+  color: #81c057;
+  font-weight: 700;
   display: inline-block;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -1821,6 +1822,7 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content p {
   color: #1f272b;
   font-size: 14px;
+  text-align: justify;
 }
 
 .meeting-single-item .down-content p.description {
@@ -1829,6 +1831,7 @@ section.meetings-page .pagination ul li a:hover {
   /* margin-bottom: 40px;
   padding-bottom: 40px; */
   border-bottom: 1px solid #eee;
+  text-align: justify;
 }
 
 .meeting-single-item .down-content .share {

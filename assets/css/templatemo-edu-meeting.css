@@ -143,6 +143,13 @@ ul {
   margin-bottom: 0px;
 }
 
+.los-p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+  text-align: justify;
+}
+
 p {
   font-size: 14px;
   line-height: 25px;
@@ -875,7 +882,7 @@ services
 .services .item h4 {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   color: #81c057;
@@ -1002,9 +1009,9 @@ section.upcoming-meetings .categories h4 {
 section.upcoming-meetings .categories p {
   font-size: 14px;
   font-weight: 600;
-  color: black;
   margin-bottom: 10px;
   padding-bottom: 10px;
+  text-align: justify;
 }
 
 section.upcoming-meetings .categories ul li {
@@ -1221,6 +1228,7 @@ section.upcoming-meetings .categories .main-button-red a {
   /* margin-left: 50px; */
   color: #1f272b;
   font-size: 14px;
+  text-align: justify;
 }
 
 
@@ -1258,6 +1266,7 @@ section.apply-now .item h3 {
 
 section.apply-now .item p {
   color: black;
+  text-align: justify;
 }
 
 .accordions {
@@ -1334,7 +1343,7 @@ section.our-courses {
 .our-courses .item .down-content h4 {
   padding: 25px;
   font-size: 18px;
-  color: #1f272b;
+  color: #81c057;
   text-align: center; 
   border-bottom: 1px solid #eee;
 }
@@ -1849,10 +1858,11 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content h4 {
   font-size: 22px;
-  color: #1f272b;
-  font-weight: 600;
+  color: #81c057;
+  font-weight: 700;
   display: inline-block;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .meeting-single-item .down-content h5 {
@@ -1866,15 +1876,17 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .down-content p {
   color: #1f272b;
   font-size: 14px;
+  text-align: justify;
 }
 
 .meeting-single-item .down-content p.description {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   padding-top: 40px;
   border-top: 1px solid #eee;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #eee;
+  /* margin-bottom: 40px;
+  padding-bottom: 40px; */
+  /* border-bottom: 1px solid ; */
+  text-align: justify;
 }
 
 .meeting-single-item .down-content .share {
