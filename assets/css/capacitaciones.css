@@ -959,6 +959,10 @@ upcoming meetings
 ---------------------------------------------
 */
 
+section.meetings-page img {
+  border-radius: 20px;
+}
+
 section.upcoming-meetings {
   background-image: url(../images/ultimas-noticias-background.jpg);
   background-position: center center;
@@ -1200,7 +1204,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content h4 {
-  font-size: 18px;
+  font-size: 15px;
   color: #64B32E;
   font-weight: 600;
   /* display: inline-block; */

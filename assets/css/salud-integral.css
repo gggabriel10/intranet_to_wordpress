@@ -48,6 +48,13 @@ body{
   zoom: 110%;
 }
 
+.videoFacts{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 850px;
+  height: 1080px;
+}
+
 .manuales a{
   color: black;
   text-transform: capitalize;
@@ -139,6 +146,7 @@ p {
   font-size: 14px;
   line-height: 25px;
   color: #2a2a2a;
+  text-align: left;
 }
 
 img {
@@ -218,9 +226,8 @@ body {
 .section-heading h2 {
   line-height: 40px;
   margin-top: 0px;
-  margin-bottom: 50px; 
+  margin-bottom: 30px; 
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(250,250,250,0.15);
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
@@ -321,6 +328,7 @@ header
   background: #fff;
   margin-top: -10px;
 }
+
 .header-area .main-nav .logo {
   /* line-height: 100px; */
   color: #81c057;
@@ -810,7 +818,7 @@ services
 */
 
 .services {
-  margin-top: -90px;
+  margin-top: -250px;
   position: absolute;
   width: 100%;
 }
@@ -821,8 +829,10 @@ services
   background-position: center center;
   border-radius: 20px;
   text-align: center;
-  color: #fff;
-  padding: 95px;
+  color: black;
+  padding: 40px;
+  background-color: white;
+  margin-top: 40px;
 }
 
 .services .item .icon {
@@ -836,10 +846,11 @@ services
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #81c057;
 }
 
 .services .item p {
-  color: #fff;
+  color: black;
   font-size: 13px;
 }
 
@@ -918,6 +929,124 @@ services
 }
 
 
+.services1 {
+  margin-top: 150px;
+  position: absolute;
+  width: 100%;
+}
+
+
+.services1 .item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  /* padding: 40px; */
+  background-color: white;
+  margin-top: 40px;
+}
+
+.services1 .item .down-content img{
+  border-radius: 20px;
+}
+
+.services1 .item .icon {
+  max-width: 60px;
+  margin: 0 auto;
+}
+
+
+.services1 .item h4 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #81c057;
+}
+
+.services1 .item p {
+  color: black;
+  font-size: 13px;
+}
+
+.services1 .owl-nav {
+  display: inline-block !important;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-25px);
+}
+    
+.services1 .owl-nav .owl-prev{
+  margin-right: 10px;
+  outline: none;
+  position: absolute;
+  left: -80px;
+}
+
+.services1 .owl-nav .owl-prev span,
+.services1 .owl-nav .owl-next span {
+  opacity: 0;
+}
+
+.services1 .owl-nav .owl-prev:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f104';
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+
+.services1 .owl-nav .owl-prev {
+  opacity: 1;
+  transition: all .5s;
+}
+
+.services1 .owl-nav .owl-prev:hover {
+  opacity: 0.9;
+}
+
+.services1 .owl-nav .owl-next {
+  opacity: 1;
+  transition: all .5s;
+}
+
+.services1 .owl-nav .owl-next:hover {
+  opacity: 0.9;
+}
+
+.services1 .owl-nav .owl-next{
+  margin-left: 10px;
+  outline: none;
+  position: absolute;
+  right: -85px;
+}
+
+.services1 .owl-nav .owl-next:before {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 700;
+  content: '\f105';
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+
+
 /*
 ---------------------------------------------
 upcoming meetings
@@ -937,6 +1066,10 @@ section.upcoming-meetings {
 section.upcoming-meetings .section-heading {
   text-align: center;
   /* margin-top: 75px; Espacio entre servicios y noticias */
+}
+
+.section-heading{
+  text-align: center;
 }
 
 section.upcoming-meetings .categories {
@@ -1169,9 +1302,63 @@ section.upcoming-meetings .categories .main-button-red a {
   /* margin-left: 50px; */
   color: #1f272b;
   font-size: 14px;
-  text-align: justify;
 }
 
+
+
+/*
+---------------------------------------------
+Tabla pensiones
+---------------------------------------------
+*/
+
+.center
+{ 
+text-align: center;
+}
+/* para firefox según el standard CSS */
+.center table
+{ 
+margin-left: auto;
+margin-right: auto;
+text-align: left; /* Para que deje el texto dentro de la tabla hacia la izquierda */
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  justify-content: center;
+}
+
+.tg td{
+  border-color:black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th{
+  border-color:black;
+  background-color: #81c057;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+  text-transform: uppercase;
+}
+
+.tg .tg-0pky{
+  border-color: inherit;
+  text-align: center;
+  vertical-align: top
+}
 
 
 /*
@@ -1186,23 +1373,32 @@ section.apply-now {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0px;
+  padding: 300px 0px;
+  margin-top: -250px;
 }
 
 section.apply-now .item {
   background-color: rgba(250,250,250,0.90);
   /* background-color: #fff; */
   padding: 40px;
-  margin-bottom: 30px;
+  margin-bottom: -850px;
   border-radius: 20px;
 }
 
 section.apply-now .item h3 {
-  color: #64B32E;
+  color: #81c057;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+section.apply-now img{
+  border-radius: 20px;
+}
+
+section.apply-now video{
+  border-radius: 20px;
 }
 
 section.apply-now .item p {
@@ -1453,10 +1649,11 @@ section.our-facts h2 {
     font-size: 36px;
 }
 .count-title {
-    font-size: 14px;
-    color: black;
-    letter-spacing: 0.5px;
-    line-height: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .new-students {
@@ -1494,7 +1691,7 @@ section.contact-us {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0px 0px 0px;
+  padding: 650px 0px 0px 0px;
 }
 
 section.contact-us #contact {
@@ -1594,7 +1791,7 @@ section.contact-us .right-info ul li span {
 
 .footer {
   text-align: center;
-  margin-top: 140px;
+  /* margin-top: 320px; */
   border-top: 1px solid #fff;
   padding: 50px 0px;
   background-color: rgba(250,250,250,0.30);
@@ -1604,11 +1801,17 @@ section.contact-us .right-info ul li span {
   border-top: 1px solid #fff;
 }
 
+.footer3 {
+  border-bottom: 1px solid #fff;
+}
+
+
 .footer p {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
   font-weight: bold;
+  text-align: center;
 }
 
 .footer p a {
@@ -1671,7 +1874,7 @@ section.meetings-page {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 section.meetings-page .filters {
