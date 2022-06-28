@@ -63,7 +63,7 @@ body{
 
 .logointranet{
   background: transparent;
-  width: 100px;
+  width: 90px;
   height: auto;
   float: left;
 }
@@ -790,10 +790,12 @@ banner
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
+  float: right;
+  margin-left: -210px;
 }
 
 .main-banner .caption h2 {
-  margin-top: 50px;
+  margin-top: 35px;
   margin-bottom: 20px;
   font-size: 40px;
   text-transform: uppercase;
@@ -802,7 +804,6 @@ banner
   letter-spacing: 1px;
   /* display: block; */
   float: right;
-
 }
 
 .main-banner .caption h2 em {

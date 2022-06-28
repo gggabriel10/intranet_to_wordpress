@@ -755,11 +755,14 @@ banner
 
 .main-banner .caption h6 {
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
+  /* float: right; */
+  margin-left: 90px;
+  margin-bottom: -15px;
 }
 
 .main-banner .caption h2 {
