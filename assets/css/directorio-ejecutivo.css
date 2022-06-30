@@ -1339,7 +1339,7 @@ section.our-courses {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
+  padding-top: 55px;
   /* padding-bottom: 130px; */
 }
 
@@ -1354,6 +1354,7 @@ section.our-courses {
   text-align: center; 
   border-bottom: 1px solid #eee;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .our-courses .item .down-content .info {

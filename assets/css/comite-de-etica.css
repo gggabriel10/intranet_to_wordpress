@@ -782,7 +782,7 @@ banner
   color: #64B32E;
   letter-spacing: 1px;
   /* display: block; */
-  float: right;
+  /* float: right; */
 }
 
 .main-banner .caption h2 em {

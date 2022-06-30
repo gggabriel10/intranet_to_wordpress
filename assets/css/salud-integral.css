@@ -48,6 +48,11 @@ body{
   zoom: 110%;
 }
 
+.center-block{
+  float: none;
+  margin: 0 auto;
+}
+
 
 .videoFacts{
   border-top-left-radius: 20px;
