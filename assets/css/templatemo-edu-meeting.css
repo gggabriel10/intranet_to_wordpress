@@ -242,7 +242,7 @@ body {
 
 .section-heading h2 {
   line-height: 40px;
-  margin-top: 0px;
+  margin-top: 40px;
   margin-bottom: 50px; 
   padding-bottom: 20px;
   /* border-bottom: 1px solid rgba(250,250,250,0.15); */
@@ -1337,13 +1337,13 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/logros-background.jpg);
+  background-image: url(../images/capacitaciones-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   /* padding-top: 140px; */
-  padding-bottom: 130px;
+  padding-bottom: 75px;
 }
 
 .our-courses .item .down-content {
@@ -1535,8 +1535,8 @@ section.our-facts h2 {
 }
 
 section.our-facts .video .videoFacts{
-  width: 80%; 
-  height: 300px;
+  width: 90%; 
+  /* height: 300px; */
   text-align: center;
   margin-left: 50px;
   /* background-color: red; */
@@ -1667,7 +1667,7 @@ section.contact-us .right-info ul li span {
 
 .footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 65px;
   border-top: 1px solid #fff;
   padding: 50px 0px;
   background-color: rgba(250,250,250,0.30);
