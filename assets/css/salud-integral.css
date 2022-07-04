@@ -160,6 +160,15 @@ img {
   overflow: hidden;
 }
 
+
+/*  actividades  */
+.carousel-item h5{
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
 /* 
 ---------------------------------------------
 global styles
@@ -764,6 +773,7 @@ banner
   top: 50%;
   transform: translateY(-50%);
 }
+
 
 .main-banner .caption h6 {
   margin-top: 0px;
@@ -1699,7 +1709,7 @@ section.contact-us {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 650px 0px 0px 0px;
+  padding: 1050px 0px 0px 0px;
 }
 
 section.contact-us #contact {
