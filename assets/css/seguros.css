@@ -48,6 +48,11 @@ body{
   zoom: 110%;
 }
 
+.center-block{
+  float: none;
+  margin: 0 auto;
+}
+
 .manuales a{
   color: black;
   text-transform: capitalize;
@@ -815,7 +820,7 @@ services
 
 
 .services1 {
-  margin-top: 450px;
+  margin-top: 370px;
   position: absolute;
   width: 100%;
 }
