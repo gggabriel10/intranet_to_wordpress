@@ -110,7 +110,7 @@ html{
 ul, li {
   padding: 0;
   margin: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -1882,7 +1882,7 @@ section.meetings-page .pagination ul li a:hover {
   margin-bottom: 15px;
 }
 
-.meeting-single-item .down-content p {
+.meeting-single-item .down-content p, ol{
   color: #1f272b;
   font-size: 14px;
   text-align: justify;
@@ -1896,6 +1896,10 @@ section.meetings-page .pagination ul li a:hover {
   padding-bottom: 40px; */
   /* border-bottom: 1px solid ; */
   text-align: justify;
+}
+
+ol > li::marker {
+  font-weight: bold;
 }
 
 .meeting-single-item .down-content .share {

@@ -45,7 +45,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 body{
-  zoom: 110%;
+  zoom: 100%;
 }
 
 .manuales a{
@@ -1761,10 +1761,7 @@ section.meetings-page .pagination ul li a:hover {
 .meeting-single-item .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  padding-left: 48px;
-  padding-top: 43px;
-  padding-right: 38px;
-  padding-bottom: 15px;
+  padding: 43px 38px 15px 48px;
 }
 
 .meeting-single-item .thumb .price {
@@ -1786,8 +1783,6 @@ section.meetings-page .pagination ul li a:hover {
   background-color: whitesmoke;
   padding: 40px;
   border-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   margin-bottom: 80px;
 }
 

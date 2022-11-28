@@ -45,7 +45,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 body{
-  zoom: 110%;
+  zoom: 100%;
 }
 
 .manuales a{
@@ -96,8 +96,16 @@ html{
 ul, li {
   padding: 0;
   margin: 0;
-  list-style: none;
+  /* list-style: none; */
 }
+
+.los-p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+  text-align: justify;
+}
+
 
 header, nav, section, article, aside, footer, hgroup {
   display: block;

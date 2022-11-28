@@ -45,7 +45,11 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 body{
-  zoom: 110%;
+  zoom: 100%;
+}
+
+ol > li::marker {
+  font-weight: bold;
 }
 
 .manuales a{
@@ -77,6 +81,23 @@ body{
   height: 0;
 }
 
+.owl-courses-item .down-content .info .information {
+  font-weight: bold;
+}
+
+/* .owl-courses-item .down-content .info .information h6{
+  font-weight: bold;
+} */
+
+
+
+.los-p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+  text-align: justify;
+}
+
 .clearfix {
   display: inline-block;
 }
@@ -96,7 +117,7 @@ html{
 ul, li {
   padding: 0;
   margin: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -1008,121 +1029,6 @@ section.upcoming-meetings .categories .main-button-red a {
   width: 100%;
 }
 
-
-/*  COPIED CODE FOR SECTIONS OUR-APPS START  */
-.meeting-item-apps {
-  margin-bottom: 30px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-.meeting-item-apps .thumb {
-  position: relative;
-}
-
-.meeting-item-apps .thumb img {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  width: 40%;
-  height: 115px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.meeting-item-apps .down-content {
-  background-color: #fff;
-  padding: 30px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.meeting-item-apps .down-content h4 {
-  font-size: 16px;
-  color: #64B32E;
-  font-weight: 600;
-  text-align: center;
-  /* display: inline-block; */
-  text-transform: uppercase;
-}
-/*  COPIED CODE FOR SECTIONS OUR-APPS END */
-
-/* STYLES FOR APLICATION BAGRIFLOTA SECTION OUR-APPS START*/
-.meeting-item-bag {
-  margin-bottom: 30px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-.meeting-item-bag .thumb {
-  position: relative;
-}
-
-.meeting-item-bag .thumb img {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  width: 90%;
-  height: 115px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.meeting-item-bag .down-content {
-  background-color: #fff;
-  padding: 30px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.meeting-item-bag .down-content h4 {
-  font-size: 16px;
-  color: #64B32E;
-  font-weight: 600;
-  /* display: inline-block; */
-  text-transform: uppercase;
-  text-align: center;
-}
-/* STYLES FOR APLICATION BAGRIFLOTA SECTION OUR-APPS END*/
-
-/* STYLES FOR BAGRICOLA WEB APLICATION SECTION OUR-APPS START*/
-.meeting-item-web {
-  margin-bottom: 30px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-.meeting-item-web  .thumb {
-  position: relative;
-}
-
-.meeting-item-web .thumb img {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  width: 70%;
-  height: 115px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.meeting-item-web .down-content {
-  background-color: #fff;
-  padding: 30px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.meeting-item-web .down-content h4 {
-  font-size: 16px;
-  color: #64B32E;
-  font-weight: 600;
-  /* display: inline-block; */
-  text-align: center;
-  text-transform: uppercase;
-}
-/* STYLES FOR BAGRICOLA WEB APLICATION SECTION OUR-APPS END*/
-
 .meeting-item .thumb .price {
   position: absolute;
   left: 20px;
@@ -1301,7 +1207,7 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info {
-  padding: 25px;
+  padding: 10px;
   padding-top: 20px;
 }
 
@@ -1916,7 +1822,18 @@ responsive
 --------------------------------------------- 
 */
 
-@media (max-width: 1300px) {
+
+@media (max-width: 1366px) {
+  .imagenCepCompleto{
+    width: 100%;
+    height: 325px;
+  }
+
+  .owl-carousel .owl-item img{
+    width: 100%;
+    height: 250px;
+  }
+
   .services .owl-nav .owl-next{
     right: -30px;
   }
@@ -1947,6 +1864,10 @@ responsive
 }
 
 @media (max-width: 1085px) {
+  .imagenCepCompleto{
+    width: 100%;
+    height: 200px;
+  }
   .services .owl-nav .owl-next{
     right: -30px;
   }
@@ -2025,7 +1946,10 @@ responsive
 }
 
 @media (max-width: 767px) {
-
+  .imagenCepCompleto{
+    width: 100%;
+    height: 350px;
+  }
   .sub-header .left-content p {
     display: none;
   }

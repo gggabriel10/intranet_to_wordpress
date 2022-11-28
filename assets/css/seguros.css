@@ -45,7 +45,14 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 body{
-  zoom: 110%;
+  zoom: 100%;
+}
+
+.los-p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+  text-align: justify;
 }
 
 .center-block{
@@ -101,7 +108,7 @@ html{
 ul, li {
   padding: 0;
   margin: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -1897,12 +1904,8 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .thumb img {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  padding-left: 48px;
-  padding-top: 43px;
-  padding-right: 38px;
-  padding-bottom: 15px;
+  width: 100%;
+  height: 300px;
 }
 
 .meeting-single-item .thumb .price {

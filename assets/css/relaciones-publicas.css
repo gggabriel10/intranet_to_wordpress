@@ -45,7 +45,15 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 body{
-  zoom: 110%;
+  zoom: 100%;
+}
+
+/* esta parte limita la cantidad de lineas en el texto de las noticias */
+.limit p{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
 
 .manuales a{
@@ -962,13 +970,13 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/ultimas-noticias-background.jpg);
+  background-image: url(../images/logros-background.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
+  /* padding-top: 230px;
+  padding-bottom: 110px; */
 }
 
 section.upcoming-meetings .section-heading {
@@ -1041,6 +1049,7 @@ section.upcoming-meetings .categories .main-button-red a {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   width: 100%;
+  height: 250px;
 }
 
 
@@ -1651,7 +1660,6 @@ section.contact-us .right-info ul li span {
 
 .footer {
   text-align: center;
-  margin-top: 140px;
   border-top: 1px solid #fff;
   padding: 50px 0px;
   background-color: rgba(250,250,250,0.30);
